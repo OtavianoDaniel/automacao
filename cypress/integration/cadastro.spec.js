@@ -46,6 +46,7 @@ describe('Cadastro', ()=> {
         //cy.get('input[accept^="image"]') -> exemplo de seletor com $ (busca o elemento que termina com "image")
 
         //cy.get('input[accept^="image"]').attachFile('images/' + entregador.cnh) -> concatenação para fazer o cypress buscar um arquivo dentro de uma subpasta em fixtures
+        // PS: por padrão o cypress busca a imagem dentro da pasta fixtures diramente, sem precisar apontar o diretório.
     })
 }
 )
